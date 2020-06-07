@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <title>Upload Music</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/static/css/style.css" type="text/css">
+</head>
+<body>
+<div id="header">
+  <div> <a href="index.html" id="logo"><img src="/static/images/boys-drinking.jpg" alt=""></a>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+       <br>
+      <br>
+      <br>
+      <br>
+       <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+
+          <span><strong>Files:</strong><br></span>
+    <input id="file-picker" type="file" name="file" accept="audio/*" multiple>
+    <div id="msg"></div>
+    <input type="submit" value="Upload!" id="upload-button">
+</form>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <form action="/admin" method="post">
+
+
+          <p><span class="headline">play and visualize the songs that have been seperated into music and vocals</span> </p>
+          <button type="submit" class="btn">Click here</button>
+</form>
+</div>
+</div>
+</body>
+<script>
+
+    $("#file-picker").change(function(){
+
+        var input = document.getElementById('file-picker');
+
+      
+
+
+    } );
+
+</script>
+</html>
