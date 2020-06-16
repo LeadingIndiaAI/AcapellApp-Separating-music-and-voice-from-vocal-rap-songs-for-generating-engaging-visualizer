@@ -59,7 +59,11 @@ $ python app.py
 
 Contributions
 suryapal singh
+
+
 Navneet agarwal(https://github.com/navneet2104)
+
+
 Vishal Shashikant Bhandari
 
 
@@ -67,7 +71,9 @@ Under the Guidance of :  Dr. Sridhar Swaminathan
 
 
  Blog by navneet agarwal:
+
 https://medium.com/@navneet.agarwal.97521/separation-of-music-and-voice-using-deep-learning-ef322ba00d50
 
 Youtube vide:
+
 comming soon
