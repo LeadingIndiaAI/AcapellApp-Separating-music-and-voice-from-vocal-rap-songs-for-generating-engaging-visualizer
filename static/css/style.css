@@ -1,8 +1,11 @@
 /* Website template by freewebsitetemplates.com */
-/*------------------------- Layout styles ------------------------*/ 
+/*------------------------- Layout styles ------------------------*/
+
+
 body{
 	background:url(../images/bg-body.gif) repeat-x #811000;
 	margin: 0;
+
 }
 p a{
 	color: #ff8800;
@@ -33,9 +36,9 @@ p a{
 #header a#logo1 {
 	display:block;
 	float:left;
-	height:50px;
+	height:50%;
 	outline:none;
-	width:50px;
+	width:50%;
 }
 #header ul#navigation {
 	float:left;
